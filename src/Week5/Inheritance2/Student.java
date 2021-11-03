@@ -1,3 +1,5 @@
+package Week5.Inheritance2;
+
 public class Student extends Person {
     private String program;
     private int year;

@@ -41,7 +41,7 @@ public class Square extends Rectangle {
 
     @Override
     public String toString() {
-        return String.format("Square[side=%.1f,color=%s,filled=%b]",
+        return String.format("Week9.Exception1.Square[side=%.1f,color=%s,filled=%b]",
                 width, color, filled);
     }
 }

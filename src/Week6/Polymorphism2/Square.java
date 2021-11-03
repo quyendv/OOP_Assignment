@@ -63,7 +63,7 @@ public class Square extends Rectangle {
 
     @Override
     public String toString() {
-        return String.format("Square[topLeft=%s,side=%.1f,color=%s,filled=%b]",
+        return String.format("Week9.Exception1.Square[topLeft=%s,side=%.1f,color=%s,filled=%b]",
                 topLeft.toString(), width, color, filled);
     }
 }

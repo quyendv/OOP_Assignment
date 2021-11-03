@@ -1,3 +1,5 @@
+package Week5.Inheritance2;
+
 public class Staff extends Person {
 
     private String school;

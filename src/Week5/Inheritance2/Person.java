@@ -1,3 +1,5 @@
+package Week5.Inheritance2;
+
 public class Person {
     private String name;
     private String address;
@@ -19,7 +21,7 @@ public class Person {
      * @return res
      */
     public String toString() {
-        return "Person[name=" + name + ",address=" + address + "]";
+        return "Week10.GeneralProgramming.Person[name=" + name + ",address=" + address + "]";
     }
 
     // getter, setter

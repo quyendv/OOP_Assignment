@@ -23,13 +23,14 @@ public class Layer {
      * Remove all Circle.
      */
     public void removeCircles() {
-        for (int i = 0; i < shapes.size(); ) {
-            if (shapes.get(i) instanceof Circle) {
-                shapes.remove(shapes.get(i));
-            } else {
-                i++;
-            }
-        }
+//        for (int i = 0; i < shapes.size(); ) {
+//            if (shapes.get(i) instanceof Circle) {
+//                shapes.remove(shapes.get(i));
+//            } else {
+//                i++;
+//            }
+//        }
+        shapes.removeIf(i -> i instanceof Circle);
     }
 
     /**
