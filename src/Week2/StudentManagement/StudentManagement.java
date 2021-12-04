@@ -1,3 +1,5 @@
+package Week2.StudentManagement;
+
 import java.util.LinkedHashSet;
 import java.util.Set;
 
@@ -12,6 +14,7 @@ public class StudentManagement {
      * @return  boolean
      */
     public static boolean sameGroup(Student s1, Student s2) {
+        if (s1 == null || s2 == null) return false; // quên :>
         return s1.getGroup().equals(s2.getGroup());
     }
 

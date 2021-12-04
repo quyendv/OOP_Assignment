@@ -1,4 +1,4 @@
-package Week10.Chess;
+package Week11.Chess;
 
 public abstract class Piece {
     private int coordinatesX;

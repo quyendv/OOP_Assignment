@@ -1,4 +1,4 @@
-package Week10.Chess;
+package Week11.Chess;
 
 public class Bishop extends Piece {
     public Bishop(int coordinatesX, int coordinatesY) {

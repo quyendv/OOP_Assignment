@@ -53,7 +53,7 @@ public class Person implements Comparable<Person> {  // class Name implements Co
         Person B = new Person("Nguyen A", 20, "faf");
         Person C = new Person("Le B", 20, "");
         List<Person> list = Arrays.asList(A, B, C);
-        // list = new Week10.GeneralProgramming.SortGeneric<Week10.GeneralProgramming.Person>().sortGeneric(list);
+        // list = new Week12.Week12.Week10.GeneralProgramming.SortGeneric<Week12.Week12.Week10.GeneralProgramming.Person>().sortGeneric(list);
         list = SortGeneric.sortGeneric(list);
         for (Person p : list) {
             System.out.println(p.getName() + " " + p.getAge() + " " + p.getAddress());

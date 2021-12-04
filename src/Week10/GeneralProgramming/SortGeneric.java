@@ -46,7 +46,7 @@ public class SortGeneric { // mẫu lớp: public static T void nameFunc(...) {.
     public static void main(String[] args) {
         List<Integer> a = new ArrayList<>();
         for (int i = 0; i < 10; i++) a.add(10 - i - 1);
-        // a = new Week10.GeneralProgramming.SortGeneric<Integer>().sortGeneric(a);
+        // a = new Week12.Week12.Week10.GeneralProgramming.SortGeneric<Integer>().sortGeneric(a);
         a = sortGeneric(a);
         System.out.println(a);
     }

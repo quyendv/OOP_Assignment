@@ -1,3 +1,4 @@
+package Week2.StudentManagement;
 
 public class Student {
     // Khai bao cac thuoc tinh cho Student

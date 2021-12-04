@@ -21,7 +21,7 @@ public class Person {
      * @return res
      */
     public String toString() {
-        return "Week10.GeneralProgramming.Person[name=" + name + ",address=" + address + "]";
+        return "Week12.Week12.Week10.GeneralProgramming.Person[name=" + name + ",address=" + address + "]";
     }
 
     // getter, setter
