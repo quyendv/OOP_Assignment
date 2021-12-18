@@ -1,0 +1,2 @@
+content file 2
+continue writing to the end of the file
