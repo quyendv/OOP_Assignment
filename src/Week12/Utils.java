@@ -73,14 +73,14 @@ public class Utils {
         return fList[0];
     }
 
-    /**
-     * Test: .../src/Week12: text.txt, Utils, (2 file writeHere.txt, writeHere2.txt tự tạo khi chạy các hàm ghi file)
-     */
-    public static void main(String[] args) {
-        String content = readContentFromFile("src/Week12/text.txt");
-        System.out.println(content);
-        writeContentToFile("src/Week12/writeHere.txt");
-        writeContentToFile2("src/Week12/writeHere2.txt");
-        System.out.println(findFileByName("src/Week12", "text.txt"));
-    }
+//    /**
+//     * Test: .../src/Week12: text.txt, Utils, (2 file writeHere.txt, writeHere2.txt tự tạo khi chạy các hàm ghi file)
+//     */
+//    public static void main(String[] args) {
+//        String content = readContentFromFile("src/Week12/text.txt");
+//        System.out.println(content);
+//        writeContentToFile("src/Week12/writeHere.txt");
+//        writeContentToFile2("src/Week12/writeHere2.txt");
+//        System.out.println(findFileByName("src/Week12", "text.txt"));
+//    }
 }
